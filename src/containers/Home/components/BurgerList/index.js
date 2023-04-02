@@ -25,7 +25,7 @@ class BurgerList extends Component {
                         return <BurgerItem key={index} id={item.id} data={item} />
                     })}
                 </div>
-                {pageCount < 3 ? <Loading /> : <a className="likeList__viewAll" href="/">view more</a>}
+                <a className="likeList__viewAll" href="/">view more</a>
             </div>
         )
     }
