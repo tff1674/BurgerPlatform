@@ -4,17 +4,37 @@
 
 .productOverview__header {
     position: relative;
+    padding: 20px;
+    background-color: rgb(180, 218, 241);
     width: 100%;
 }
 
 .productOverview__imgContainer {
     min-height: 100px;
+    display: flex;
 }
 
 .productOverview__img {
-    width: 100%;
+    width: 30%;
     min-height: 100px;
     display: block;
+}
+
+.productOverview__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.productOverview__item {
+    display: flex;
+    margin-top: 15px;
+}
+
+.productOverview__cell {
+    font-weight: 500;
+    margin-right: 10px;
 }
 
 .productOverview__baseInfo {

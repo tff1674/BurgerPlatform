@@ -10,7 +10,10 @@ const dataSource = [
         saleDesc: 'sold 6034',
         score: 4.3,
         comment: 'it tastes good',
-        distance: '886m'
+        distance: '886m',
+        averagePrice: '$20',
+        phoneNumber: '67-38999876',
+        specialty: 'traditional Burger'
     },
     {
         id: 'p-2',
@@ -63,6 +66,45 @@ const dataSource = [
         score: 4.6,
         comment: 'i like it',
         distance: '60m'
+    },
+    {
+        id: 'p-6',
+        shopId: 's-6',
+        shop: 'KFC',
+        tag: 'walk-in',
+        picture:
+            'https://i2.chuimg.com/9866f27fa2614f199836a4457b8beff7_1920w_2880h.jpg?imageView2/2/w/660/interlace/1/q/90',
+        product: 'Burger with different tastes',
+        saleDesc: 'sold 3976',
+        score: 4.6,
+        comment: 'the burger is cheap but delicious',
+        distance: '800m'
+    },
+    {
+        id: 'p-7',
+        shopId: 's-7',
+        shop: 'Burger Cheers',
+        tag: 'walk-in',
+        picture:
+            'https://pic.5tu.cn/uploads/allimg/1508/151043353110.jpg',
+        product: 'Burger with different tastes',
+        saleDesc: 'sold 89007',
+        score: 4.9,
+        comment: 'the service is good',
+        distance: '100m'
+    },
+    {
+        id: 'p-8',
+        shopId: 's-8',
+        shop: 'Burger Cheers',
+        tag: 'walk-in',
+        picture:
+            'https://img.cc0.cn/pixabay/201910211929315861.jpg!860.jpg',
+        product: 'Burger with different tastes',
+        saleDesc: 'sold 76660',
+        score: 4.9,
+        comment: 'i like it',
+        distance: '1.6km'
     }
 ]
 export default dataSource

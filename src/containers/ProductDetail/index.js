@@ -5,6 +5,7 @@ import Detail from './components/Detail';
 import Comment from './components/Comment';
 import Header from '../../components/Header'
 import UploadImg from './components/UploadImg';
+import OtherComment from './components/OtherComment';
 import dataSource from './dataSource'
 import { actions, getProduct, getRelatedShop } from '../../redux/modules/detail'
 import './style.css'
@@ -37,6 +38,7 @@ class ProductDetail extends Component {
                 </div>) }
                 <UploadImg />
                 <div className="submit" onClick={this.submit}>Submit</div>
+                <OtherComment data={dataSource.find((item)=>item.id === this.props.match.params.id)}/>
             </div>
         )
     }
