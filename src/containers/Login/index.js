@@ -14,7 +14,7 @@ class Login extends Component {
             if (state && state.from) {
                 return <Redirect to={state.from.pathname} />
             }
-            return <Redirect to='/login' />
+            return <Redirect to='/user' />
         }
         return (
             <div>
